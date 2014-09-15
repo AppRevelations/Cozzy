@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apprevelations.cozzy.MainActivity" 
+    android:background="@drawable/background"
+    android:id="@+id/Rl">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="16dp"
+        android:text='of the world.\"'
+        android:textSize="30sp" 
+        android:textColor="#2A120A" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="27dp"
+        android:text="are the foundation"
+        android:textColor="#2A120A"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="51dp"
+        android:text="\&quot;Deeds of"
+        android:textColor="#2A120A"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="16dp"
+        android:text="giving"
+        android:textColor="#2A120A"
+        android:textSize="45sp" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="61dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/authButton"
+        android:layout_below="@+id/authButton"
+        android:src="@drawable/ar" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:src="@drawable/ic_launcher" />
+    
+</RelativeLayout>

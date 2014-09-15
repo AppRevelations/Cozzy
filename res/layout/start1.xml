@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+         >
+
+       
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="35dp" 
+            android:background="#00ffffff"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/islidingmenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginLeft="235dp"/>
+
+        </LinearLayout>
+        
+
+    <!--    
+       -->
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape" 
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="35dp"
+            >
+             <ViewFlipper
+            
+            android:id="@+id/view_flipper"
+            android:layout_width="220dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="120dp" >
+
+            <RelativeLayout
+                android:background="#cccccc"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+              <ImageView 
+        android:src="@drawable/sc1"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dp" 
+        android:layout_y="0dp" 
+        />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="#cccccc"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+          
+              <ImageView 
+        android:src="@drawable/sc2"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dp" 
+        android:layout_y="0dp" 
+        />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="#cccccc"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+              <ImageView 
+        android:src="@drawable/sc3"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dp" 
+        android:layout_y="0dp" 
+        />
+
+            </RelativeLayout>
+        </ViewFlipper>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp" >
+
+            <RelativeLayout
+                android:id="@+id/rlchallenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="42dp"
+                android:layout_toRightOf="@+id/relativeLayout1"
+                android:background="@drawable/shape"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/tree" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/imageView4"
+                    android:layout_below="@+id/imageView4"
+                    android:text="Challenge"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#bdbdbd" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/rlchallenge"
+                android:layout_marginLeft="36dp"
+                android:background="@drawable/shape"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/donate" />
+
+                 <TextView 
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/imageView3"
+                    android:layout_below="@+id/imageView3"
+                    android:text="Donation"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#bdbdbd" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/shape"
+                android:id="@+id/start" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="24dp"
+                    android:src="@drawable/abc_ic_go_search_api_holo_light" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Why Should I Care?"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#A4A4A4" />
+
+            </RelativeLayout>
+            
+        </RelativeLayout>
+         
+    </LinearLayout>
+
+    
+
+</LinearLayout>

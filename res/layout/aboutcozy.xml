@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a9a9a8"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+     android:background="#DA2029">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f5f5f5"
+            android:text="Cozzy is a unique giving platform that allows charities,causes, and appeals to connect to a new world of mobile and digital giving"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="22dp"
+            android:text="Whether you're a charitable cause or a charitable giver,Cozzy is a simple,fast,secure way to join the future of giving and put you in control"
+             android:fontFamily="sans-serif-light"
+            android:textColor="#f5f5f5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="16dp"
+            android:text="Cozzy makes no profit "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f5f5f5"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Supported By"
+            android:textColor="#424242"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ar" />
+        
+    </RelativeLayout>
+    
+
+</LinearLayout>

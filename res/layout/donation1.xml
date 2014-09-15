@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/itshirt"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tshirt" />
+
+            <ImageView
+                android:id="@+id/itshirt1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="235dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/tshirt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/itrousers"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/trousers"
+                android:visibility="invisible" />
+            
+            <ImageView
+                android:id="@+id/itrousers1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/trousers"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iwollens"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="115dp"
+                android:src="@drawable/wollens"
+                android:visibility="invisible" />
+            
+            <ImageView
+                android:id="@+id/iwollens1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="115dp"
+                android:src="@drawable/wollens"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ifood"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/food"
+                android:visibility="invisible" />
+            
+            <ImageView
+                android:id="@+id/ifood1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/food"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/iothers"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/cart2"
+                android:visibility="invisible" />
+            
+            <ImageView
+                android:id="@+id/iothers1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/cart2"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/icart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:src="@drawable/cart"
+                android:visibility="invisible" />
+            
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

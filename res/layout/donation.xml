@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#474179" >
+
+    <ImageView
+        android:id="@+id/icart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/cart" />
+
+    <ImageView
+        android:id="@+id/iothers"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/icart"
+        android:visibility="invisible"
+        android:src="@drawable/cart2" />
+
+    <ImageView
+        android:id="@+id/itshirt"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/iothers"
+        android:layout_alignTop="@+id/itrousers"
+        android:visibility="invisible"
+        android:src="@drawable/tshirt" />
+
+    <ImageView
+        android:id="@+id/itrousers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/icart"
+        android:layout_alignLeft="@+id/ifood"
+        android:layout_marginBottom="37dp"
+        android:visibility="invisible"
+        android:src="@drawable/trousers" />
+
+    <ImageView
+        android:id="@+id/ifood"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/iothers"
+        android:layout_toRightOf="@+id/icart"
+        android:visibility="invisible"
+        android:src="@drawable/food" />
+
+</RelativeLayout>
